@@ -8,6 +8,11 @@ section {
     border: solid black 1px;
    
 }
+.hero-text {
+    margin-left: 40px;
+    margin-bottom: 400px;
+
+    }
 
 .hero {
     background-color: #2b2e41;
@@ -16,6 +21,12 @@ section {
     font-size: 40px;
 }
 
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
 footer {
     height: 500px;
     background-color: black;
@@ -40,19 +51,32 @@ h1 {
     margin: 0;
 }
 p {
-    font-size: 25px;
+    font-size: 30px;
     margin: 0;
     font-weight: 100;
 }
-.hero-text {
-margin-left: 40px;
-}
+
 .button {
     width: 200px;
-    height: 60px;
+    height: 55px;
     border-radius: 30px;
     background-color: coral;
     text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px ;
     
 
+}
+.button:hover {
+    background-color: #ac00db;
+}
+.button:active {
+    background-color: darkgrey;
+    color: #ffe20800
+    
+}
+.socials {
+    padding-bottom: 400px;
 }
