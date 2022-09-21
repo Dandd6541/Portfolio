@@ -1,7 +1,12 @@
+body {
+    font-family: "trirong", sans-serif;
+}
+
 section {
     height: 500px;
     background-color: rgb(255, 255, 255);
     border: solid black 1px;
+   
 }
 
 .hero {
@@ -29,4 +34,23 @@ ul {
 li {
     width: 200px;
     text-decoration: none;
+}
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+p {
+    font-size: 25px;
+    margin: 0;
+    font-weight: 100;
+}
+.hero-text {
+margin-left: 40px;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+     background-color: coral;
+    text-align: center;
 }
