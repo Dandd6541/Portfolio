@@ -53,6 +53,10 @@ p {
     margin: 0;
     font-weight: 100;
 }
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
 
 .button {
     width: 200px;
@@ -94,7 +98,7 @@ p {
 section {
     
     background-color: rgb(255, 255, 255);
-    border: solid black 1px;
+    
    
 }
 .sub-section-alternative {
@@ -116,9 +120,15 @@ section {
 .project-card {
     width: 300px;
     height: 500px;
-    border: 1px black;
+    box-shadow: 5px 5px 20px grey;
 }
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
 }
