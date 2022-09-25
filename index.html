@@ -4,6 +4,7 @@
     <body>
     <link rel="stylesheet" href="src/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <script src="https://kit.fontawesome.com/a5df78bd98.js" crossorigin="anonymous"></script>
 
     <title>Portfolio</title>
     <meta charset="UTF-8">
@@ -11,11 +12,14 @@
 <section class="hero">
     <nav>
         <img class="logo" src="src/images/YIGPx8a - Imgur.jpg" alt= "DK's Background"/>
-        <ul>
+        <ul id="nav-list">
             <li><a href="#about-me">About me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact-me">Contact me</a></li>
         </ul>
+        <button class="yummy" id="yummy">
+            <i class="fas fa-bars"></i>
+        </button>
     </nav>
         <div class="hero-area">
     <div class="hero-text">
@@ -81,7 +85,10 @@
             </div>
         </div>
     </section>
-    <footer id="contact-me"></footer>
+    <footer id="contact-me">
+        <h2>Contact me</h2>
+        <p>danielkaymordehai@gmail.com</p>
+    </footer>
 
     <script src="src/app.js"></script>
     
