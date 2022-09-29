@@ -12,10 +12,12 @@ body {
     }
 
 .hero {
-    background-color: #2b2e41;
+    background-color: red;
+    /* background-image: url(https://imgur.com/a/We9A6i4); */
     height: 100vh;
     color: white;
     font-size: 40px;
+
 }
 
 .hero-area {
