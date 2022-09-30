@@ -12,7 +12,9 @@ body {
     }
 
 .hero {
-    background-color: red;
+    background:
+    linear-gradient(45deg, rgb(76,0, 255), transparent),
+    repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%);
     /* background-image: url(https://imgur.com/a/We9A6i4); */
     height: 100vh;
     color: white;
@@ -31,13 +33,16 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+    background:
+    linear-gradient(95deg, rgb(67, 61, 83), transparent),
+    repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%);
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
-   
+    justify-content: space-between; 
 }
+
 
 ul {
     display: flex;
@@ -59,6 +64,7 @@ h1 {
 }
 h2 {
 font-size: 70px;
+-webkit-text-stroke: .00125vmin rgb(8, 199, 233);
 }
 p {
     font-size: 30px;
@@ -80,6 +86,7 @@ p {
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px ;
+    -webkit-text-stroke: .18vmin rgba(128, 0, 255, 0.597);
     
 
 }
@@ -157,8 +164,12 @@ hr {
 }
 .project-link {
     text-decoration: none;
-    color: red;
-
+    color: rgb(44, 44, 44);
+    
+}
+.project-link:hover {
+    background-color: rgb(0, 255, 238);
+     -webkit-text-stroke: .03vmin rgb(255, 255, 255); 
 }
 
 a {
@@ -188,12 +199,19 @@ a {
         background-color: #5c6283;
         margin: 0px;
     }
-    nav{
+    /* nav{
         display: flex;
         flex-direction: column-reverse;
         background-color: #5c6283;
-    }
+    } */
+    
     .logo {
         display: none;
     }
+}
+
+.sub-section {
+    background:
+    linear-gradient(45deg, rgb(0, 174, 249), transparent),
+    repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%);
 }
