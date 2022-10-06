@@ -41,6 +41,7 @@ footer {
 nav {
     display: flex;
     justify-content: space-between; 
+    padding-right: 1%;
 }
 
 
@@ -220,4 +221,8 @@ a {
     -webkit-text-stroke: .06vmin rgb(2, 6, 5); 
     font-size: 28px;
     color: #6ef9f4;
+}
+
+.resume:hover {
+    background-color: #020003;
 }
