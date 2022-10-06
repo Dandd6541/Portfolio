@@ -215,3 +215,9 @@ a {
     linear-gradient(45deg, rgb(0, 174, 249), transparent),
     repeating-linear-gradient(45deg, rgb(183, 0, 255) 0%, rgb(183, 0, 255) 5%);
 }
+
+.resume {
+    -webkit-text-stroke: .06vmin rgb(2, 6, 5); 
+    font-size: 28px;
+    color: #6ef9f4;
+}
