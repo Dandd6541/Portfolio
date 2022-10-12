@@ -30,6 +30,7 @@ body {
 }
 footer {
     padding: 80px;
+    padding-bottom: 0%;
     background-color: black;
     color: white;
     text-align: center;
@@ -64,6 +65,7 @@ h1 {
     margin: 0;
 }
 h2 {
+    padding-top: 0%;
 font-size: 70px;
 -webkit-text-stroke: .00125vmin rgb(8, 199, 233);
 }
